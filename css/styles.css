@@ -117,7 +117,7 @@ img {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,33;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -131,12 +131,15 @@ img {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,33;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--primary-color);}
+    color:var(--primary-color);
+    margin-right: 76px;
+ 
+}
 
 
 /*===MENU NAVIGATION===*/
@@ -144,7 +147,7 @@ img {
 .menu-link {
         font-weight: 500;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--primary-color);
     }
@@ -162,7 +165,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
@@ -176,7 +179,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
@@ -200,7 +203,7 @@ img {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     color: var(--white-color);
 
     margin-top: 0;
@@ -214,7 +217,7 @@ img {
     color: var(--white-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
     cursor: pointer;
@@ -269,7 +272,7 @@ h6 {
 .section-heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -283,7 +286,7 @@ h6 {
 
 .features-description {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: var(--secondary-color);
     }
 
@@ -310,7 +313,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     background: var(--team-icons-color);
     width: 264px;
     height: 112px;
@@ -370,7 +373,7 @@ h6 {
 }
 .team-position {
     font-size: 16px;
-    line-height: 1, 5;
+    line-height: 1.5;
     color: var(--secondary-color);
    
     text-align: center;
@@ -409,7 +412,7 @@ h6 {
 .customers-heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -430,7 +433,6 @@ h6 {
 .customers-list-item {
     width: 168px;
     height: 88px;
-    border: 1px solid #8e8f99;
     border-radius: 4px;
 }
 
@@ -440,6 +442,7 @@ h6 {
     align-items: center;
     width: 100%;
     height: 100%;
+    border: 1px solid #8e8f99;
     fill: #8e8f99;
 }
 .customers-list-link:hover,
@@ -461,11 +464,11 @@ h6 {
     padding-bottom: 100px;
 }
     
-.logo-link {
+.logo-link-footer {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1, 33;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -478,7 +481,7 @@ h6 {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1, 33;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -488,7 +491,8 @@ h6 {
     
 .footer-text {
     font-size: 16px;
-    line-height: 1, 5;
+    font-weight: 500;
+    line-height: 1.5;
     color:var(--footer-text-color);
 
     margin: 0;
@@ -554,7 +558,7 @@ h6 {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
 
@@ -579,7 +583,7 @@ h6 {
 .port-item-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-color);
 
@@ -590,7 +594,7 @@ h6 {
 .portfolio-item-about {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: var(--secondary-color);
 
     margin: 0;
